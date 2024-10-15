@@ -23,4 +23,10 @@ describe('PagenotfoundComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should display "404 - Page not found" in h1 tag', () => {
+    const h1 = fixture.debugElement.nativeElement.querySelector('h1');
+    expect(h1.textContent).toBe("404 - Page not found");
+  });
+
 });
