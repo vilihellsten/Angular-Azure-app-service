@@ -6,17 +6,14 @@ import { Router } from '@angular/router';
 describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
-  const routerSpy = jasmine.createSpyObj("Router", ["navigate"]);
+  const routerSpy = jasmine.createSpyObj('Router', ['navigate']);
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [HomeComponent],
       providers: [{ provide: Router, useValue: routerSpy }],
-      schemas: [
-        CUSTOM_ELEMENTS_SCHEMA
-      ]
-    })
-      .compileComponents();
+      schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
@@ -27,9 +24,8 @@ describe('HomeComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it("should take to feedback page", () => {
+  it('feedback page button should take to feedback page', () => {
     component.showFeedbackPage();
-    expect(routerSpy.navigate).toHaveBeenCalledWith(["feedback"])
+    expect(routerSpy.navigate).toHaveBeenCalledWith(['feedback']);
   });
-
 });
