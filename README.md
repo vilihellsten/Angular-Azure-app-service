@@ -1,4 +1,7 @@
-# AngularExampleApp
+# DevOps - Ohjelmistokehitysprosessin automatisointi
+
+Ohjelmistokehitysprosessin automatisointi kurssin harjoitusprojekti jonka tavoitteena on opiskella testauksen periaatteita sekä GitHubin eri työkalujen käyttöä.
+Harjoitustyö on julkaistu Microsoft Azuressa.
 
 This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 Since then, the Angular version has been updated to 15.2.
