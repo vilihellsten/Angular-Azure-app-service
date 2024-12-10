@@ -35,6 +35,7 @@ jobs:
         with:
           name: webpack artifacts
           path: dist/angular-example-app/
+      - run: ls ./dist/angular-example-app/
 
   build-docker:
     runs-on: ubuntu-latest
