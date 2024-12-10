@@ -4,7 +4,7 @@ Ohjelmistokehitysprosessin automatisointi kurssin harjoitusprojekti jonka tavoit
 Harjoitustyö on julkaistu Microsoft Azuressa.
 
 This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
-Since then, the Angular version has been updated to 15.2.
+Since then, the Angular version has been updated to 15.2. sd
 
 ## Development server
 
